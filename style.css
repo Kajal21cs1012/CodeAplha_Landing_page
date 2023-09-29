@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the hero section */
+.hero {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.NxZq0UtfXOSNgeXqGlb-QQHaE7&pid=Api&P=0&h=220'); /* Replace with your own background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius:3px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the features section */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+
+.feature {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+    
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color:blue;
+    color: white;
+    
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Navy-Blue-Background-HD.png);}
+    img {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
